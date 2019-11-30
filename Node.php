@@ -8,27 +8,27 @@ class Node {
 		$this->prev = null;
 	}
 
-	public function set_value($value) {
+	public function setValue($value) {
 		$this->$value = $value;
 	}
 
-	public function set_next(Node $next) {
+	public function setNext(Node $next) {
 		$this->next = $next;
 	}
 
-	public function set_prev(Node $prev) {
+	public function setPrev(Node $prev) {
 		$this->prev = $prev;
 	}
 
-	public function get_value() {
+	public function getValue() {
 		return $this->value;
 	}
 
-	public function get_next() {
+	public function getNext() {
 		return $this->next;
 	}
 
-	public function get_prev() {
+	public function getPrev() {
 		return $this->prev;
 	}
 }
